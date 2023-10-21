@@ -1,12 +1,12 @@
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
-const BtnTime = ({ isWorking, handlePress }) => {
+const BtnTime = ({ isActive, handleStartStop }) => {
 
-    const text = isWorking ? "Detener" : "Iniciar";
+    const text = isActive ? "Detener" : "Iniciar";
 
     return (
-        <TouchableOpacity onPress={() => handlePress()} style={styles.btn}>
+        <TouchableOpacity onPress={() => handleStartStop()} style={styles.btn}>
             <Text style={styles.text}>{text}</Text>
         </TouchableOpacity>
     );

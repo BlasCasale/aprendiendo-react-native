@@ -11,6 +11,8 @@ const Main = () => {
 
     const [isWorking, setIsWorking] = useState(false);
 
+    const [isActive, setIsActive] = useState(false);
+
     const [time, setTime] = useState(25 * 60);
 
     const [currentTime, setCurrentTime] = useState("POMO" | "SHORT" | "LONG");
@@ -18,7 +20,7 @@ const Main = () => {
     useEffect(() => {
         let interval = null;
 
-        if (isWorking) {
+        if (isActive) {
             interval = setInterval(() => {
                 setTime(time - 1);
             }, 1000);
@@ -26,29 +28,35 @@ const Main = () => {
             clearInterval(interval);
         };
 
-        return () => clearInterval(interval)
-    }, [isWorking, time]);
+        if (time === 0) {
+            setIsActive(false);
+            setIsWorking(prev => !prev);
+            setTime(isWorking ? 300 : 1500);
+        }
+
+        return () => clearInterval(interval);
+    }, [isActive, time]);
 
     const playSound = async () => {
         const { sound } = await Audio.Sound.createAsync(require("../assets/click.mp3"));
         await sound.playAsync();
     };
 
-    const handlePress = () => {
+    const handleStartStop = () => {
         playSound();
-        setIsWorking(!isWorking);
+        setIsActive(!isActive);
     };
 
     return (
         <View style={[styles.container, { backgroundColor: colors[currentTime] }]}>
-            <Text>Pomodoro</Text>
+            <Text style={styles.pomodoro}>Pomodoro</Text>
             <NavBar
                 currentTime={currentTime}
                 setCurrentTime={setCurrentTime}
                 setTime={setTime}
             />
             <Timer time={time} />
-            <BtnTime isWorking={isWorking} handlePress={handlePress} />
+            <BtnTime isActive={isActive} handleStartStop={handleStartStop} />
         </View>
     )
 };
@@ -59,6 +67,12 @@ const styles = StyleSheet.create({
         gap: 10,
         paddingHorizontal: 15,
         borderWidth: 3
+    },
+    pomodoro: {
+        fontWeight: "bold",
+        fontSize: 30,
+        textAlign: "center",
+        marginTop: 20
     }
 })
 
