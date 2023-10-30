@@ -1,10 +1,59 @@
-{
-    "copyright": "Marcella Giulia Pace",
-    "date": "2023-10-21",
-    "explanation": "Half way between New Moon and Full Moon is the Moon's first quarter phase. That's a quarter of the way around its moonthly orbit. At the first quarter phase, half the Moon's visible side is illuminated by sunlight. For the Moon's third quarter phase, half way between Full Moon and New Moon, sunlight illuminates the other half of the visible lunar disk. At both first and third quarter phases, the terminator, or shadow line separating the lunar night and day, runs down the middle. Near the terminator, long shadows bring lunar craters and mountains in to sharp relief, making the quarter phases a good time to observe the Moon. But in case you missed some, all the quarter phases of the Moon and their calendar dates during 2022 can be found in this well-planned array of telephoto images. Of course, you can observe a first quarter Moon tonight.  International: Observe the Moon Night",
-    "hdurl": "https: //apod.nasa.gov/apod/image/2310/quartermoon2022date.jpeg",
-    "media_type": "image",
-    "service_version": "v1",
-    "title": "Quarter Moons",
-    "url": "https://apod.nasa.gov/apod/image/2310/quartermoon2022date.jpeg"
-}
+[
+    {
+        "copyright": "Yuichi Takasaka,TWAN",
+        "date": "2023-10-22",
+        "explanation": "What does this aurora look like to you? While braving the cold to watch the skies above northern Canada early one morning in 2013, a most unusual aurora appeared.  The aurora definitely appeared to be shaped like something, but what? Two ghostly possibilities recorded by the astrophotographer were \"witch\" and \"goddess of dawn\", but please feel free to suggest your own Halloween-enhanced impressions. Regardless of fantastical pareidolic interpretations, the pictured aurora had a typical green color and was surely caused by the scientifically commonplace action of high-energy particles from space interacting with oxygen in Earth's upper atmosphere.  In the image foreground, at the bottom, is a frozen Alexandra Falls, while evergreen trees cross the middle.   Help Wanted: Professional-astronomer level guest writers and assistant editors for APOD",
+        "hdurl": "https: //apod.nasa.gov/apod/image/2310/AuroraGhost_Takasaka_960.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Ghost Aurora over Canada",
+        "url": "https://apod.nasa.gov/apod/image/2310/AuroraGhost_Takasaka_960.jpg"
+    },
+    {
+        "date": "2023-10-23",
+        "explanation": "There goes another one!  Volcanoes on Jupiter's moon Io keep erupting. To investigate, NASA's robotic Juno spacecraft has begun a series of visits to this very strange moon. Io is about the size of Earth's moon, but because of gravitational flexing by Jupiter and other moons, Io's interior gets heated and its surface has become covered with volcanoes.  The featured image is from last week's flyby, passing within 12,000 kilometers above the dangerously active world. The surface of Io is covered with sulfur and frozen sulfur dioxide, making it appear yellow, orange and brown. As hoped, Juno flew by just as a volcano was erupting -- with its faint plume visible near the top of the featured image.  Studying Io's volcanoes and plumes helps humanity better understand how Jupiter's complex system of moons, rings, and auroras interact. Juno is scheduled to make two flybys of Io during the coming months that are almost 10 times closer: one in December and another in February 2024.   Help Wanted: Professional-astronomer level guest writers and assistant editors for APOD",
+        "hdurl": "https: //apod.nasa.gov/apod/image/2310/IoFlyby_Juno_2047.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Moon Io from Spacecraft Juno",
+        "url": "https: //apod.nasa.gov/apod/image/2310/IoFlyby_Juno_960.jpg"
+    },
+    {
+        "date": "2023-10-24",
+        "explanation": "This dance is to the death.  As these two large galaxies duel, a cosmic bridge of stars, gas, and dust currently stretches over 75,000 light-years and joins them.  The bridge itself is strong evidence that these two immense star systems have passed close to each other and experienced violent tides induced by mutual gravity. As further evidence, the face-on spiral galaxy on the right, also known as NGC 3808A, exhibits many young blue star clusters produced in a burst of star formation. The twisted edge-on spiral on the left (NGC 3808B) seems to be wrapped in the material bridging the galaxies and surrounded by a curious polar ring. Together, the system is known as Arp 87. While such interactions are drawn out over billions of years, repeated close passages will ultimately create one merged galaxy. Although this scenario does look unusual, galactic mergers are thought to be common, with Arp 87 representing a stage in this inevitable process. The Arp 87 dancing pair are about 300 million light-years distant toward the constellation of the Lion (Leo). The prominent edge-on spiral galaxy at the far left appears to be a more distant background galaxy and not involved in the on-going merger.",
+        "hdurl": "https: //apod.nasa.gov/apod/image/2310/Arp87_HubblePathak_2512.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Arp 87: Merging Galaxies from Hubble",
+        "url": "https://apod.nasa.gov/apod/image/2310/Arp87_HubblePathak_1080.jpg"
+    },
+    {
+        "copyright": "Tengyu Cai",
+        "date": "2023-10-25",
+        "explanation": "In 60 seconds, this setting Sun will turn green. Actually, the top of the Sun already appears not only green, but wavey -- along with all of its edges. The Sun itself is unchanged -- both effects are caused by looking along hot and cold layers in Earth's atmosphere.  The unusual color is known as a green flash and occurs because these atmospheric layers not only shift background images but disperse colors into slightly different directions, like a prism.  The featured video was captured earlier this month off the coast of Hawaii, USA. After waiting those 60 seconds, at the video's end, the upper part of the Sun seems to hover alone in space, while turning not only green, but blue.  Then suddenly, the Sun appears to shrink to nothing -- only to return tomorrow.",
+        "media_type": "video",
+        "service_version": "v1",
+        "title": "Gone in 60 Seconds: A Green Flash Sunset",
+        "url": "https: //www.youtube.com/embed/J3_88eyN44w?rel=0"
+    },
+    {
+        "copyright": "David Cortner",
+        "date": "2023-10-26",
+        "explanation": "History's first known periodic comet, Comet Halley (1P/Halley), returns to the inner Solar System every 76 years or so. The famous comet made its last appearance to the naked-eye in 1986. But dusty debris from Comet Halley can be seen raining through planet Earth's skies twice a year during two annual meteor showers, the Eta Aquarids in May and the Orionids in October. In fact, an unhurried series of exposures captured these two bright meteors, vaporizing bits of Halley dust, during the early morning hours of October 23 against a starry background along the Taurus molecular cloud. Impacting the atmosphere at about 66 kilometers per second their greenish streaks point back to the shower's radiant just north of Orion's bright star Betelgeuse off the lower left side of the frame. The familiar Pleiades star cluster anchors the dusty celestial scene at the right.",
+        "hdurl": "https: //apod.nasa.gov/apod/image/2310/20231023_orionids_in_taurus_1440b.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Orionids in Taurus",
+        "url": "https://apod.nasa.gov/apod/image/2310/20231023_orionids_in_taurus_1024c.jpg"
+    },
+    {
+        "copyright": "Dan Bartlett",
+        "date": "2023-10-27",
+        "explanation": "History's second known periodic comet is Comet Encke (2P/Encke). As it swings through the inner Solar System, Encke's orbit takes it from an aphelion, its greatest distance from the Sun, inside the orbit of Jupiter to a perihelion just inside the orbit of Mercury. Returning to its perihelion every 3.3 years, Encke has the shortest period of the Solar System's major comets. Comet Encke is also associated with (at least) two annual meteor showers on planet Earth, the North and South Taurids. Both showers are active in late October and early November. Their two separate radiants lie near bright star Aldebaran in the head-strong constellation Taurus. A faint comet, Encke was captured in this telescopic field of view imaged on the morning of August 24. Then, Encke's pretty greenish coma was close on the sky to the young, embedded star cluster and light-years long, tadpole-shaped star-forming clouds in emission nebula IC 410. Now near bright star Spica in Virgo Comet Encke passed its 2023 perihelion only five days ago, on October 22.",
+        "hdurl": "https: //apod.nasa.gov/apod/image/2310/2P_Encke_2023_08_24JuneLake_California_USA_DEBartlett.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Encke and the Tadpoles",
+        "url": "https://apod.nasa.gov/apod/image/2310/2P_Encke_2023_08_24JuneLake_California_USA_DEBartlett1024.jpg"
+    }
+]

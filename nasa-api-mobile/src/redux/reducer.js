@@ -2,6 +2,7 @@ import { actions } from "./actions";
 
 const initialState = {
     apod: null,
+    apodFiveDays: [],
     error: null
 };
 
@@ -17,6 +18,12 @@ export const rootReducer = (state = initialState, action) => {
             return {
                 ...state,
                 apod: action.payload
+            };
+
+        case actions.GET_APOD_FOR_DATE:
+            return {
+                ...state,
+                apodFiveDays: action.payload
             };
 
         case actions.ERROR:

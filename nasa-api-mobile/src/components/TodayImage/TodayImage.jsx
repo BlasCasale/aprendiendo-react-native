@@ -7,8 +7,6 @@ const TodayImage = () => {
 
     const apod = useSelector((state) => state.apod);
 
-    console.log(apod)
-
     return (
         <View style={styles.container}>
             <Image source={{ uri: apod?.url }} style={styles.image} />
