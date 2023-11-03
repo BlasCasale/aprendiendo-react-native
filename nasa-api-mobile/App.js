@@ -1,12 +1,12 @@
 import { Provider } from 'react-redux';
 import { store } from './src/redux/store';
-import Home from './src/components/Home/Home';
+import Routes from './src/Routes/Routes';
 
 export default function App() {
 
   return (
     <Provider store={store}>
-      <Home />
+      <Routes />
     </Provider>
   );
 };

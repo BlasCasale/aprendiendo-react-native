@@ -13,7 +13,7 @@ const LastFiveDayImages = () => {
             <Text style={styles.text}>Últimos 5 días</Text>
             <ScrollView style={styles.content}>
                 {apodFiveDays?.map((apod, index) => (
-                    <ApodImage key={index} {...apod} />
+                    <ApodImage key={index} {...apod} index={index} />
                 ))}
             </ScrollView>
         </View>

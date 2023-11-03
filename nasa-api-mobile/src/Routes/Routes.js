@@ -3,23 +3,28 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ApodDetail from '../components/ApodDetail/ApodDetail';
 import Home from '../components/Home/Home';
-import { ccc } from '../utils/utils';
+import { blue, ffffff } from '../utils/utils';
 
 const Stack = createNativeStackNavigator();
 
 const routeScreenDefaultOptions = {
-    headearStyle: {
-        backgrounColor: ccc
+    headerStyle: {
+        backgroundColor: blue
+    },
+    headerTitleStyle: {
+        color: ffffff
     }
 };
 
 const Routes = () => {
-    <NavigationContainer>
-        <Stack.Navigator initialRouteName='Home'>
-            <Stack.Screen name='Home' component={Home} options={routeScreenDefaultOptions} />
-            <Stack.Screen name='Detail' component={ApodDetail} options={routeScreenDefaultOptions} />
-        </Stack.Navigator>
-    </NavigationContainer>
+    return (
+        <NavigationContainer>
+            <Stack.Navigator initialRouteName='Home'>
+                <Stack.Screen name='Home' component={Home} options={routeScreenDefaultOptions} />
+                <Stack.Screen name='Detail' component={ApodDetail} options={routeScreenDefaultOptions} />
+            </Stack.Navigator>
+        </NavigationContainer>
+    )
 };
 
 

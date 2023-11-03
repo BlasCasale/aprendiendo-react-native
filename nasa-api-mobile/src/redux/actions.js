@@ -5,6 +5,7 @@ import { format, sub } from 'date-fns';
 export const actions = {
     GET_APOD: "GET_APOD",
     QUITE_APOD: "QUITE_APOD",
+    APOD_DETAIL: "APOD_DETAIL",
     ERROR: "ERROR",
     GET_APOD_FOR_DATE: "GET_APOD_FOR_DATE"
 };
@@ -45,6 +46,15 @@ export const get_apod_for_date = () => {
                 payload: error
             });
         };
+    };
+};
+
+export const apod_detail = (apod) => {
+    return (dispatch) => {
+        return dispatch({
+            type: "APOD_DETAIL",
+            payload: apod
+        });
     };
 };
 
